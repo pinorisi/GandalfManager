@@ -3,10 +3,17 @@
     "description": "October CMS - A content management system",
     "type": "project",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dein-repo/pinorisi-gandalfmanager-plugin"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "october/system": "^3.0",
-        "october/cms": "^3.0"
+        "october/cms": "^3.0",
+        "pinorisi/gandalfmanager-plugin": "^1.0"
     },
     "autoload": {
         "psr-4": {
